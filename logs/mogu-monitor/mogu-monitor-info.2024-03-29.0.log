@@ -1,0 +1,159 @@
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:48.611 INFO 19268 [main] com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:212 LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:48.638 INFO 19268 [main] com.alibaba.nacos.client.config.utils.JvmUtil:49 isMultiInstance:false
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:48.645 INFO 19268 [main] org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:105 Located property source: [BootstrapPropertySource {name='bootstrapProperties-mogu-monitor-dev.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor,dev'}]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:48.649 INFO 19268 [main] com.moxi.mogublog.monitor.MonitorApplication:655 The following profiles are active: dev
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.402 INFO 19268 [main] org.springframework.cloud.context.scope.GenericScope:295 BeanFactory id=487c3a9e-ab2b-3009-b139-70d1ece72a90
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.467 INFO 19268 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.468 INFO 19268 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.469 INFO 19268 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.633 INFO 19268 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 Tomcat initialized with port(s): 8606 (http)
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.640 INFO 19268 [main] org.apache.coyote.http11.Http11NioProtocol:173 Initializing ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.640 INFO 19268 [main] org.apache.catalina.core.StandardService:173 Starting service [Tomcat]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.641 INFO 19268 [main] org.apache.catalina.core.StandardEngine:173 Starting Servlet engine: [Apache Tomcat/9.0.31]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.643 INFO 19268 [main] org.apache.catalina.core.AprLifecycleListener:173 Loaded APR based Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.643 INFO 19268 [main] org.apache.catalina.core.AprLifecycleListener:173 APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.643 INFO 19268 [main] org.apache.catalina.core.AprLifecycleListener:173 APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.648 INFO 19268 [main] org.apache.catalina.core.AprLifecycleListener:173 OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.795 INFO 19268 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring embedded WebApplicationContext
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:49.795 INFO 19268 [main] org.springframework.web.context.ContextLoader:284 Root WebApplicationContext: initialization completed in 1135 ms
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:51.716 INFO 19268 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:51.739 INFO 19268 [main] com.alibaba.nacos.client.naming:65 initializer namespace from System Property :null
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:51.740 INFO 19268 [main] com.alibaba.nacos.client.naming:74 initializer namespace from System Environment :null
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:51.741 INFO 19268 [main] com.alibaba.nacos.client.naming:84 initializer namespace from System Property :null
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:53.690 INFO 19268 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:53.983 INFO 19268 [main] org.springframework.security.web.DefaultSecurityFilterChain:43 Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d16be4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2bfaba70, org.springframework.security.web.header.HeaderWriterFilter@2dd8ff1d, org.springframework.security.web.csrf.CsrfFilter@35c4e864, org.springframework.security.web.authentication.logout.LogoutFilter@3eb292cd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@124dac75, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@493da830, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9301672, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45c9b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17b37e9a, org.springframework.security.web.session.SessionManagementFilter@36b9cb99, org.springframework.security.web.access.ExceptionTranslationFilter@3252747e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64c781a9]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:53.997 INFO 19268 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:54.002 INFO 19268 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:54.109 INFO 19268 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181 Initializing ExecutorService 'applicationTaskExecutor'
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:54.215 INFO 19268 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181 Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:56.912 INFO 19268 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:58.765 INFO 19268 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:58.789 INFO 19268 [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 Exposing 2 endpoint(s) beneath base path '/actuator'
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:58.895 INFO 19268 [main] org.apache.coyote.http11.Http11NioProtocol:173 Starting ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:58.921 INFO 19268 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 Tomcat started on port(s): 8606 (http) with context path ''
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:59.126 INFO 19268 [http-nio-8606-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:59.127 INFO 19268 [http-nio-8606-exec-1] org.springframework.web.servlet.DispatcherServlet:525 Initializing Servlet 'dispatcherServlet'
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:59.134 INFO 19268 [http-nio-8606-exec-1] org.springframework.web.servlet.DispatcherServlet:547 Completed initialization in 7 ms
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:54:59.413 INFO 19268 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1711716899412,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":1696362079700} from /169.254.28.183
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:00.841 INFO 19268 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:00.845 INFO 19268 [main] com.alibaba.nacos.client.naming:81 [BEAT] adding beat: BeatInfo{port=8606, ip='169.254.28.183', weight=1.0, serviceName='DEFAULT_GROUP@@mogu-monitor', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:00.847 INFO 19268 [main] com.alibaba.nacos.client.naming:230 [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='169.254.28.183', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:00.850 INFO 19268 [main] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:75 nacos registry, DEFAULT_GROUP mogu-monitor 169.254.28.183:8606 register finished
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:01.415 INFO 19268 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"169.254.28.183#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor\",\"ip\":\"169.254.28.183\",\"port\":8606,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@mogu-monitor\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatTimeOut\":15000,\"instanceHeartBeatInterval\":5000}],\"lastRefTime\":1711716901411,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":1698360866700} from /169.254.28.183
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:01.426 INFO 19268 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:228 new ips(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"169.254.28.183#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"169.254.28.183","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:01.430 INFO 19268 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:267 current ips:(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"169.254.28.183#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"169.254.28.183","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.835 INFO 19268 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.837 INFO 19268 [main] com.moxi.mogublog.monitor.MonitorApplication:61 Started MonitorApplication in 19.112 seconds (JVM running for 20.526)
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.843 INFO 19268 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor.yaml+dev+dev
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.844 INFO 19268 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor.yaml, group=dev, cnt=1
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.845 INFO 19268 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor+dev+dev
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.845 INFO 19268 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor, group=dev, cnt=1
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.846 INFO 19268 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor-dev.yaml+dev+dev
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 20:55:02.846 INFO 19268 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor-dev.yaml, group=dev, cnt=1
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 22:12:11.935 INFO 19268 [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming:230 [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='169.254.28.183', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='DEFAULT_GROUP@@mogu-monitor', metadata={preserved.register.source=SPRING_CLOUD}}
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 22:12:22.437 INFO 19268 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"169.254.28.183#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor\",\"ip\":\"169.254.28.183\",\"port\":8606,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@mogu-monitor\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatTimeOut\":15000,\"instanceHeartBeatInterval\":5000}],\"lastRefTime\":1711721542429,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":6339429124900} from /169.254.28.183
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 23:50:50.431 INFO 19268 [reactor-http-nio-15] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=2, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=UP, details={rabbit={status=UP, details={version=3.7.4}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=141646446592, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-admin, mogu-sms, mogu-monitor]}}}}, rabbit={status=UP, details={version=3.7.4}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-03-29T12:57:42.090Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8604
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 23:50:50.431 INFO 19268 [reactor-http-nio-16] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=c7b1fddfea92, version=2, registration=Registration(name=mogu-admin, managementUrl=http://localhost:8601/actuator, healthUrl=http://localhost:8601/actuator/health, serviceUrl=http://localhost:8601/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={sentinel={status=UNKNOWN, details={dataSource={}, enabled=true, dashboard={description=the dashboard servers [[Tuple2{r1=localhost, r2=8070}]] one of them can't be connected, status=UNKNOWN}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=141649948672, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-admin, mogu-picture, mogu-gateway]}}}}, rabbit={status=UP, details={version=3.7.4}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, result=1, validationQuery=/* ping */ SELECT 1}}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-03-29T12:55:00.431Z, info=Info(values={}), endpoints=Endpoints(endpoints={httptrace=Endpoint(id=httptrace, url=http://localhost:8601/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8601/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8601/actuator/loggers), flyway=Endpoint(id=flyway, url=http://localhost:8601/actuator/flyway), logfile=Endpoint(id=logfile, url=http://localhost:8601/actuator/logfile), refresh=Endpoint(id=refresh, url=http://localhost:8601/actuator/refresh), health=Endpoint(id=health, url=http://localhost:8601/actuator/health), env=Endpoint(id=env, url=http://localhost:8601/actuator/env), liquibase=Endpoint(id=liquibase, url=http://localhost:8601/actuator/liquibase), heapdump=Endpoint(id=heapdump, url=http://localhost:8601/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8601/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8601/actuator/mappings), beans=Endpoint(id=beans, url=http://localhost:8601/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8601/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8601/actuator/dump), metrics=Endpoint(id=metrics, url=http://localhost:8601/actuator/metrics), auditevents=Endpoint(id=auditevents, url=http://localhost:8601/actuator/auditevents), jolokia=Endpoint(id=jolokia, url=http://localhost:8601/actuator/jolokia), info=Endpoint(id=info, url=http://localhost:8601/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8601
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 23:50:50.431 INFO 19268 [reactor-http-nio-14] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=c27da4d7a750, version=2, registration=Registration(name=mogu-spider, managementUrl=http://localhost:8608/actuator, healthUrl=http://localhost:8608/actuator/health, serviceUrl=http://localhost:8608/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=141643960320, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-spider, mogu-admin, mogu-sms, mogu-monitor]}}}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, result=1, validationQuery=/* ping */ SELECT 1}}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-03-29T12:58:19.269Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8608/actuator/health), info=Endpoint(id=info, url=http://localhost:8608/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8608
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 23:50:50.431 INFO 19268 [reactor-http-nio-2] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=39790085b145, version=2, registration=Registration(name=mogu-picture, managementUrl=http://localhost:8602/actuator, healthUrl=http://localhost:8602/actuator/health, serviceUrl=http://localhost:8602/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={sentinel={status=UNKNOWN, details={dataSource={degrade-sentinel-nacos-datasource={status=UP}, flow-sentinel-nacos-datasource={status=UP}}, enabled=true, dashboard={description=the dashboard servers [[Tuple2{r1=localhost, r2=8070}]] one of them can't be connected, status=UNKNOWN}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=141649944576, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-admin, mogu-monitor]}}}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, result=1, validationQuery=/* ping */ SELECT 1}}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-03-29T12:55:03.613Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8602/actuator/health), info=Endpoint(id=info, url=http://localhost:8602/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8602
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:169.254.28.183:8606] [,] 2024-03-29 23:50:50.431 INFO 19268 [reactor-http-nio-1] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=d922df394df0, version=2, registration=Registration(name=mogu-web, managementUrl=http://localhost:8603/actuator, healthUrl=http://localhost:8603/actuator/health, serviceUrl=http://localhost:8603/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={sentinel={status=DOWN, details={dataSource={degrade-sentinel-nacos-datasource={status=UP}, flow-sentinel-nacos-datasource={status=UP}}, enabled=true, dashboard={description=[Tuple2{r1=localhost, r2=8070}] can't be connected, status=DOWN}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=141643546624, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-spider, mogu-admin, mogu-sms, mogu-monitor]}}}}, rabbit={status=UP, details={version=3.7.4}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, result=1, validationQuery=/* ping */ SELECT 1}}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-03-29T12:59:01.138Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8603/actuator/health), info=Endpoint(id=info, url=http://localhost:8603/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8603
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+

@@ -1,0 +1,4 @@
+[mogu-sms:169.254.28.183:8604] [,] 2024-04-12 14:57:44.703 INFO 19348 [main] com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:212 LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+[mogu-sms:169.254.28.183:8604] [,] 2024-04-12 14:57:44.765 INFO 19348 [main] com.alibaba.nacos.client.config.utils.JvmUtil:49 isMultiInstance:false
+[mogu-sms:169.254.28.183:8604] [,] 2024-04-12 14:57:44.783 INFO 19348 [main] org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:105 Located property source: [BootstrapPropertySource {name='bootstrapProperties-mogu-sms-dev.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-sms.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-sms,dev'}]
+[mogu-sms:169.254.28.183:8604] [,] 2024-04-12 14:57:44.849 INFO 19348 [main] com.moxi.mogublog.sms.SmsApplication:655 The following profiles are active: dev

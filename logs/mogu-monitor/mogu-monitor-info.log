@@ -1,0 +1,459 @@
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:26.345 INFO 24992 [main] com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:212 LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:26.379 INFO 24992 [main] com.alibaba.nacos.client.config.utils.JvmUtil:49 isMultiInstance:false
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:26.387 INFO 24992 [main] org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:105 Located property source: [BootstrapPropertySource {name='bootstrapProperties-mogu-monitor-dev.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor,dev'}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:26.392 INFO 24992 [main] com.moxi.mogublog.monitor.MonitorApplication:655 The following profiles are active: dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.369 INFO 24992 [main] org.springframework.cloud.context.scope.GenericScope:295 BeanFactory id=487c3a9e-ab2b-3009-b139-70d1ece72a90
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.447 INFO 24992 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.448 INFO 24992 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.450 INFO 24992 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.822 INFO 24992 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 Tomcat initialized with port(s): 8606 (http)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.848 INFO 24992 [main] org.apache.coyote.http11.Http11NioProtocol:173 Initializing ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.850 INFO 24992 [main] org.apache.catalina.core.StandardService:173 Starting service [Tomcat]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.851 INFO 24992 [main] org.apache.catalina.core.StandardEngine:173 Starting Servlet engine: [Apache Tomcat/9.0.31]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.856 INFO 24992 [main] org.apache.catalina.core.AprLifecycleListener:173 Loaded APR based Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.857 INFO 24992 [main] org.apache.catalina.core.AprLifecycleListener:173 APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.859 INFO 24992 [main] org.apache.catalina.core.AprLifecycleListener:173 APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:27.872 INFO 24992 [main] org.apache.catalina.core.AprLifecycleListener:173 OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:28.117 INFO 24992 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring embedded WebApplicationContext
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:28.117 INFO 24992 [main] org.springframework.web.context.ContextLoader:284 Root WebApplicationContext: initialization completed in 1709 ms
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:31.018 INFO 24992 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:31.087 INFO 24992 [main] com.alibaba.nacos.client.naming:65 initializer namespace from System Property :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:31.089 INFO 24992 [main] com.alibaba.nacos.client.naming:74 initializer namespace from System Environment :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:31.092 INFO 24992 [main] com.alibaba.nacos.client.naming:84 initializer namespace from System Property :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:33.855 INFO 24992 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:34.555 INFO 24992 [main] org.springframework.security.web.DefaultSecurityFilterChain:43 Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54e12f4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b95a6db, org.springframework.security.web.header.HeaderWriterFilter@753fd7a1, org.springframework.security.web.csrf.CsrfFilter@54089484, org.springframework.security.web.authentication.logout.LogoutFilter@6ef60295, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@748ac6f3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e351d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c9a6717, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@431e86b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60990e5c, org.springframework.security.web.session.SessionManagementFilter@21b6c9c2, org.springframework.security.web.access.ExceptionTranslationFilter@10c47c79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@798256c5]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:34.586 INFO 24992 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:34.596 INFO 24992 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:34.799 INFO 24992 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181 Initializing ExecutorService 'applicationTaskExecutor'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:35.024 INFO 24992 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181 Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:39.744 INFO 24992 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:42.597 INFO 24992 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:42.642 INFO 24992 [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 Exposing 2 endpoint(s) beneath base path '/actuator'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:42.854 INFO 24992 [main] org.apache.coyote.http11.Http11NioProtocol:173 Starting ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:42.898 INFO 24992 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 Tomcat started on port(s): 8606 (http) with context path ''
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:42.997 INFO 24992 [http-nio-8606-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:42.998 INFO 24992 [http-nio-8606-exec-3] org.springframework.web.servlet.DispatcherServlet:525 Initializing Servlet 'dispatcherServlet'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:43.008 INFO 24992 [http-nio-8606-exec-3] org.springframework.web.servlet.DispatcherServlet:547 Completed initialization in 9 ms
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:43.281 INFO 24992 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1720541923280,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8650230878200} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.463 INFO 24992 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.469 INFO 24992 [main] com.alibaba.nacos.client.naming:81 [BEAT] adding beat: BeatInfo{port=8606, ip='192.168.200.1', weight=1.0, serviceName='DEFAULT_GROUP@@mogu-monitor', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.471 INFO 24992 [main] com.alibaba.nacos.client.naming:230 [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='192.168.200.1', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.476 INFO 24992 [main] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:75 nacos registry, DEFAULT_GROUP mogu-monitor 192.168.200.1:8606 register finished
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.868 INFO 24992 [com.alibaba.nacos.client.naming.updater] com.alibaba.nacos.client.naming:228 new ips(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.875 INFO 24992 [com.alibaba.nacos.client.naming.updater] com.alibaba.nacos.client.naming:267 current ips:(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:45.992 INFO 24992 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor\",\"ip\":\"192.168.200.1\",\"port\":8606,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@mogu-monitor\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1720541925990,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8652941335300} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:46.769 INFO 24992 [reactor-http-nio-2] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=0, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2024-07-09T16:18:43.370Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8604
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.401 INFO 24992 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.402 INFO 24992 [main] com.moxi.mogublog.monitor.MonitorApplication:61 Started MonitorApplication in 26.502 seconds (JVM running for 27.874)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.409 INFO 24992 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor.yaml+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.411 INFO 24992 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor.yaml, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.412 INFO 24992 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.412 INFO 24992 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.413 INFO 24992 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor-dev.yaml+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:18:47.414 INFO 24992 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor-dev.yaml, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:23:06.670 INFO 24992 [parallel-15] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=3, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=112729272320, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:22:25.684Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:26:06.671 INFO 24992 [parallel-14] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=5, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=109413502976, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:25:46.348Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:27:06.673 INFO 24992 [parallel-7] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=7, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=109415047168, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:26:45.821Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:28:46.686 INFO 24992 [parallel-9] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=9, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=109404618752, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:27:45.115Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:30:06.680 INFO 24992 [parallel-7] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=11, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=109388500992, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:29:25.326Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:31:46.668 INFO 24992 [parallel-10] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=13, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=109385400320, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:31:26.051Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:32:46.679 INFO 24992 [parallel-2] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=15, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={mail={status=DOWN, details={location=smtp.163.com:-1, error=javax.mail.AuthenticationFailedException: null}}, binders={status=DOWN, details={rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=109382246400, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-picture, mogu-gateway, mogu-web, mogu-admin, mogu-sms, mogu-search, mogu-monitor]}}}}, rabbit={status=DOWN, details={error=org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-09T16:32:25.411Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health), info=Endpoint(id=info, url=http://localhost:8604/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:39.588 INFO 24992 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:218 Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:41.718 INFO 24992 [SpringContextShutdownHook] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:90 De-registering from Nacos Server now...
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:41.720 INFO 24992 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:101 [BEAT] removing beat: DEFAULT_GROUP@@mogu-monitor:192.168.200.1:8606 from beat map.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:41.721 INFO 24992 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:260 [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='192.168.200.1', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:41.724 INFO 24992 [SpringContextShutdownHook] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:110 De-registration finished.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:41.732 INFO 24992 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:147 com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:42.304 INFO 24992 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1720542882301,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9609252793900} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:34:42.306 INFO 24992 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:234 removed ips(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:02.724 INFO 26884 [main] com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:212 LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:02.781 INFO 26884 [main] com.alibaba.nacos.client.config.utils.JvmUtil:49 isMultiInstance:false
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:02.806 INFO 26884 [main] org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:105 Located property source: [BootstrapPropertySource {name='bootstrapProperties-mogu-monitor-dev.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor,dev'}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:02.818 INFO 26884 [main] com.moxi.mogublog.monitor.MonitorApplication:655 The following profiles are active: dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.199 INFO 26884 [main] org.springframework.cloud.context.scope.GenericScope:295 BeanFactory id=487c3a9e-ab2b-3009-b139-70d1ece72a90
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.322 INFO 26884 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.323 INFO 26884 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.325 INFO 26884 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.695 INFO 26884 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 Tomcat initialized with port(s): 8606 (http)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.705 INFO 26884 [main] org.apache.coyote.http11.Http11NioProtocol:173 Initializing ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.707 INFO 26884 [main] org.apache.catalina.core.StandardService:173 Starting service [Tomcat]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.708 INFO 26884 [main] org.apache.catalina.core.StandardEngine:173 Starting Servlet engine: [Apache Tomcat/9.0.31]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.711 INFO 26884 [main] org.apache.catalina.core.AprLifecycleListener:173 Loaded APR based Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.712 INFO 26884 [main] org.apache.catalina.core.AprLifecycleListener:173 APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.712 INFO 26884 [main] org.apache.catalina.core.AprLifecycleListener:173 APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.737 INFO 26884 [main] org.apache.catalina.core.AprLifecycleListener:173 OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.947 INFO 26884 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring embedded WebApplicationContext
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:04.947 INFO 26884 [main] org.springframework.web.context.ContextLoader:284 Root WebApplicationContext: initialization completed in 2092 ms
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:07.459 INFO 26884 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:07.518 INFO 26884 [main] com.alibaba.nacos.client.naming:65 initializer namespace from System Property :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:07.520 INFO 26884 [main] com.alibaba.nacos.client.naming:74 initializer namespace from System Environment :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:07.522 INFO 26884 [main] com.alibaba.nacos.client.naming:84 initializer namespace from System Property :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:09.924 INFO 26884 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:10.659 INFO 26884 [main] org.springframework.security.web.DefaultSecurityFilterChain:43 Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e1fd62b, org.springframework.security.web.context.SecurityContextPersistenceFilter@22c53d82, org.springframework.security.web.header.HeaderWriterFilter@2c7db926, org.springframework.security.web.csrf.CsrfFilter@1d4fb213, org.springframework.security.web.authentication.logout.LogoutFilter@73aeef7d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@493da830, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@111d5c97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68d6d775, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66cd621b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7112ce6, org.springframework.security.web.session.SessionManagementFilter@1668919e, org.springframework.security.web.access.ExceptionTranslationFilter@4ceff87d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@315105f]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:10.693 INFO 26884 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:10.705 INFO 26884 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:10.946 INFO 26884 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181 Initializing ExecutorService 'applicationTaskExecutor'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:11.171 INFO 26884 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181 Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:15.721 INFO 26884 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:18.817 INFO 26884 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:18.894 INFO 26884 [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 Exposing 2 endpoint(s) beneath base path '/actuator'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:19.217 INFO 26884 [main] org.apache.coyote.http11.Http11NioProtocol:173 Starting ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:19.293 INFO 26884 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 Tomcat started on port(s): 8606 (http) with context path ''
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:19.414 INFO 26884 [http-nio-8606-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:19.417 INFO 26884 [http-nio-8606-exec-1] org.springframework.web.servlet.DispatcherServlet:525 Initializing Servlet 'dispatcherServlet'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:19.426 INFO 26884 [http-nio-8606-exec-1] org.springframework.web.servlet.DispatcherServlet:547 Completed initialization in 9 ms
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:19.596 INFO 26884 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1720543999593,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":10726544737600} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:21.716 INFO 26884 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:21.721 INFO 26884 [main] com.alibaba.nacos.client.naming:81 [BEAT] adding beat: BeatInfo{port=8606, ip='192.168.200.1', weight=1.0, serviceName='DEFAULT_GROUP@@mogu-monitor', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:21.723 INFO 26884 [main] com.alibaba.nacos.client.naming:230 [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='192.168.200.1', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:21.726 INFO 26884 [main] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:75 nacos registry, DEFAULT_GROUP mogu-monitor 192.168.200.1:8606 register finished
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:22.225 INFO 26884 [com.alibaba.nacos.client.naming.updater] com.alibaba.nacos.client.naming:228 new ips(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:22.231 INFO 26884 [com.alibaba.nacos.client.naming.updater] com.alibaba.nacos.client.naming:267 current ips:(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:22.307 INFO 26884 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor\",\"ip\":\"192.168.200.1\",\"port\":8606,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@mogu-monitor\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1720544002306,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":10729256965500} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.823 INFO 26884 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.827 INFO 26884 [main] com.moxi.mogublog.monitor.MonitorApplication:61 Started MonitorApplication in 27.53 seconds (JVM running for 29.678)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.841 INFO 26884 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor.yaml+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.844 INFO 26884 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor.yaml, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.845 INFO 26884 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.845 INFO 26884 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.847 INFO 26884 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor-dev.yaml+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.848 INFO 26884 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor-dev.yaml, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 00:53:23.877 INFO 26884 [http-nio-8606-exec-3] org.apache.tomcat.util.http.parser.Cookie:173 A cookie header was received [name":"首页","navbarLevel":1,"summary":"首页","icon":"el-icon-remove","url":"/","sort":7,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"e186d3225e1405a0ee73995347b1c239","status":1,"createTime":"2021-02-23 13:17:30","updateTime":"2021-02-23 17:05:31"},{"name":"关于我","navbarLevel":1,"summary":"关于我","icon":"el-icon-user","url":"/about","sort":6,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"c3e10b3c8d576ed24387934d5d0c0b81","status":1,"createTime":"2021-02-23 13:18:43","updateTime":"2021-02-23 18:06:14"},{"name":"归档","navbarLevel":1,"summary":"归档","icon":"el-icon-camera","url":"/sort","sort":5,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"55bca78a37694c5a72b2910adde12d96","status":1,"createTime":"2021-02-23 13:19:11","updateTime":"2021-02-23 15:30:37"},{"name":"分类","navbarLevel":1,"summary":"博客分类","icon":"el-icon-folder-checked","url":"/classify","sort":4,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"abe6c960aa65fba7f728480fd933807f","status":1,"createTime":"2021-02-23 13:19:38","updateTime":"2021-02-23 15:30:43"},{"name":"标签","navbarLevel":1,"summary":"博客标签","icon":"el-icon-headset","url":"/tag","sort":3,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0de9cfa4227c80530e43c534712156f5","status":1,"createTime":"2021-02-23 13:20:01","updateTime":"2021-02-23 15:30:47"},{"name":"专题","navbarLevel":1,"summary":"博客专题","icon":"el-icon-data-analysis","url":"/subject","sort":2,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"40277498960cfc2fb428c1ee4429676c","status":1,"createTime":"2021-02-23 13:20:22","updateTime":"2021-02-23 15:30:50"},{"name":"留言板","navbarLevel":1,"summary":"留言板","icon":"el-icon-money","url":"/messageBoard","sort":1,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0d8a13137502ed28649888cfea40ee80","status":1,"createTime":"2021-02-23 13:20:47","updateTime":"2021-02-23 15:30:53"},{"name":"博客源码","navbarLevel":1,"summary":"博客源码","icon":"el-icon-zoom-in","url":"https://gitee.com/moxi159753/mogu_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"childWebNavbar":[{"name":"博客源码","navbarLevel":2,"summary":"蘑菇博客源码","icon":"el-icon-tickets","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/mogu_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"51f9db7329ccd382255c01f4ef371108","status":1,"createTime":"2021-02-27 13:06:13","updateTime":"2021-02-27 13:06:13"},{"name":"学习笔记","navbarLevel":2,"summary":"学习笔记","icon":"el-icon-folder-opened","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/LearningNotes","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"25bdfd2a854ea4af1bf1adcd676a711b","status":1,"createTime":"2021-02-27 12:43:40","updateTime":"2021-02-27 12:43:40"}],"uid":"94d59134ab64aac6d7994c80c6698f8a","status":1,"createTime":"2021-02-23 18:07:24","updateTime":"2021-02-27 13:05:34"},{"name":"博客详情","navbarLevel":1,"summary":"博客详情页","icon":"el-icon-user","url":"/info","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"a26eb81119b47bb34f733c4c38432021","status":1,"createTime":"2021-02-23 18:40:54","updateTime":"2021-02-23 18:40:54"},{"name":"博客列表","navbarLevel":1,"summary":"博客列表","icon":"el-icon-picture-outline-round","url":"/list","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"7fb0684401ff99073c64dc956a9cb28a","status":1,"createTime":"2021-02-23 18:57:19","updateTime":"2021-02-23 18:57:19"}]; token=2109448491444946a1003dae6d245fd5] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:27.047 INFO 26884 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:218 Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.134 INFO 26884 [SpringContextShutdownHook] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:90 De-registering from Nacos Server now...
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.135 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:101 [BEAT] removing beat: DEFAULT_GROUP@@mogu-monitor:192.168.200.1:8606 from beat map.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.136 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:260 [DEREGISTER-SERVICE] dev deregistering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='192.168.200.1', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.139 INFO 26884 [SpringContextShutdownHook] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:110 De-registration finished.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.141 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:147 com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.712 INFO 26884 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1720544429710,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":11156661355400} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.713 INFO 26884 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:234 removed ips(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:29.717 INFO 26884 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:267 current ips:(0) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> []
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:32.157 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:149 com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:32.158 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:409 com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:32.656 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:121 com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.664 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:125 com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.665 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:132 com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.665 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:134 com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.666 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:414 com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.666 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:719 com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.670 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.identify.CredentialWatcher:105 [null] CredentialWatcher is stopped
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.670 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.identify.CredentialService:98 [null] CredentialService is freed
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.671 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.naming:723 com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.672 INFO 26884 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:218 Shutting down ExecutorService 'applicationTaskExecutor'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.680 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.config.http.ServerHttpAgent:453 com.alibaba.nacos.client.config.http.ServerHttpAgent do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.681 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.config.http.ServerHttpAgent:457 com.alibaba.nacos.client.config.http.ServerHttpAgent do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:35.682 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.config.impl.ClientWorker:560 com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 01:00:38.698 INFO 26884 [SpringContextShutdownHook] com.alibaba.nacos.client.config.impl.ClientWorker:563 com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:03.263 INFO 6260 [main] com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:212 LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:03.283 INFO 6260 [main] com.alibaba.nacos.client.config.utils.JvmUtil:49 isMultiInstance:false
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:03.290 INFO 6260 [main] org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:105 Located property source: [BootstrapPropertySource {name='bootstrapProperties-mogu-monitor-dev.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor.yaml,dev'}, BootstrapPropertySource {name='bootstrapProperties-mogu-monitor,dev'}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:03.294 INFO 6260 [main] com.moxi.mogublog.monitor.MonitorApplication:655 The following profiles are active: dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.096 INFO 6260 [main] org.springframework.cloud.context.scope.GenericScope:295 BeanFactory id=487c3a9e-ab2b-3009-b139-70d1ece72a90
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.166 INFO 6260 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.167 INFO 6260 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.168 INFO 6260 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.349 INFO 6260 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92 Tomcat initialized with port(s): 8606 (http)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.356 INFO 6260 [main] org.apache.coyote.http11.Http11NioProtocol:173 Initializing ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.357 INFO 6260 [main] org.apache.catalina.core.StandardService:173 Starting service [Tomcat]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.358 INFO 6260 [main] org.apache.catalina.core.StandardEngine:173 Starting Servlet engine: [Apache Tomcat/9.0.31]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.360 INFO 6260 [main] org.apache.catalina.core.AprLifecycleListener:173 Loaded APR based Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.360 INFO 6260 [main] org.apache.catalina.core.AprLifecycleListener:173 APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.360 INFO 6260 [main] org.apache.catalina.core.AprLifecycleListener:173 APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.371 INFO 6260 [main] org.apache.catalina.core.AprLifecycleListener:173 OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.526 INFO 6260 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring embedded WebApplicationContext
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:04.526 INFO 6260 [main] org.springframework.web.context.ContextLoader:284 Root WebApplicationContext: initialization completed in 1219 ms
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:06.394 INFO 6260 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:06.417 INFO 6260 [main] com.alibaba.nacos.client.naming:65 initializer namespace from System Property :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:06.418 INFO 6260 [main] com.alibaba.nacos.client.naming:74 initializer namespace from System Environment :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:06.418 INFO 6260 [main] com.alibaba.nacos.client.naming:84 initializer namespace from System Property :null
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:08.322 INFO 6260 [main] org.springframework.cloud.commons.util.InetUtils:170 Cannot determine local hostname
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:08.634 INFO 6260 [main] org.springframework.security.web.DefaultSecurityFilterChain:43 Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11d045b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e977098, org.springframework.security.web.header.HeaderWriterFilter@6e03db1f, org.springframework.security.web.csrf.CsrfFilter@2e32fc22, org.springframework.security.web.authentication.logout.LogoutFilter@753fd7a1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ddd84b5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@52b46d52, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6690b9fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68699afc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fbf088b, org.springframework.security.web.session.SessionManagementFilter@708eb310, org.springframework.security.web.access.ExceptionTranslationFilter@5f1483fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eb292cd]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:08.651 INFO 6260 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:08.657 INFO 6260 [main] com.netflix.config.sources.URLConfigurationSource:122 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:08.787 INFO 6260 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181 Initializing ExecutorService 'applicationTaskExecutor'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:08.906 INFO 6260 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181 Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:11.543 INFO 6260 [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58 Exposing 2 endpoint(s) beneath base path '/actuator'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:11.653 INFO 6260 [main] org.apache.coyote.http11.Http11NioProtocol:173 Starting ProtocolHandler ["http-nio-8606"]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:11.672 INFO 6260 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204 Tomcat started on port(s): 8606 (http) with context path ''
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:11.904 INFO 6260 [http-nio-8606-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:11.904 INFO 6260 [http-nio-8606-exec-1] org.springframework.web.servlet.DispatcherServlet:525 Initializing Servlet 'dispatcherServlet'
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:11.911 INFO 6260 [http-nio-8606-exec-1] org.springframework.web.servlet.DispatcherServlet:547 Completed initialization in 6 ms
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:12.173 INFO 6260 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1720593312172,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9352171756700} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:12.453 INFO 6260 [main] com.alibaba.nacos.client.naming:81 [BEAT] adding beat: BeatInfo{port=8606, ip='192.168.200.1', weight=1.0, serviceName='DEFAULT_GROUP@@mogu-monitor', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:12.454 INFO 6260 [main] com.alibaba.nacos.client.naming:230 [REGISTER-SERVICE] dev registering service DEFAULT_GROUP@@mogu-monitor with instance: Instance{instanceId='null', ip='192.168.200.1', port=8606, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:12.456 INFO 6260 [main] com.alibaba.cloud.nacos.registry.NacosServiceRegistry:75 nacos registry, DEFAULT_GROUP mogu-monitor 192.168.200.1:8606 register finished
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:12.668 INFO 6260 [com.alibaba.nacos.client.naming.updater] com.alibaba.nacos.client.naming:228 new ips(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:12.672 INFO 6260 [com.alibaba.nacos.client.naming.updater] com.alibaba.nacos.client.naming:267 current ips:(1) service: DEFAULT_GROUP@@mogu-monitor@@DEFAULT -> [{"instanceId":"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor","ip":"192.168.200.1","port":8606,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mogu-monitor","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.046 INFO 6260 [com.alibaba.nacos.naming.push.receiver] com.alibaba.nacos.client.naming:86 received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@mogu-monitor\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.200.1#8606#DEFAULT#DEFAULT_GROUP@@mogu-monitor\",\"ip\":\"192.168.200.1\",\"port\":8606,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@mogu-monitor\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"ipDeleteTimeout\":30000,\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000}],\"lastRefTime\":1720593313045,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9353045177300} from /192.168.56.1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.287 INFO 6260 [main] com.moxi.mogublog.monitor.MonitorApplication:61 Started MonitorApplication in 13.566 seconds (JVM running for 14.892)
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.292 INFO 6260 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor.yaml+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.293 INFO 6260 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor.yaml, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.294 INFO 6260 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.294 INFO 6260 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.295 INFO 6260 [main] com.alibaba.nacos.client.config.impl.ClientWorker:239 [fixed-localhost_8848-dev] [subscribe] mogu-monitor-dev.yaml+dev+dev
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:13.295 INFO 6260 [main] com.alibaba.nacos.client.config.impl.CacheData:93 [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=mogu-monitor-dev.yaml, group=dev, cnt=1
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:35:22.276 INFO 6260 [parallel-3] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=d922df394df0, version=0, registration=Registration(name=mogu-web, managementUrl=http://localhost:8603/actuator, healthUrl=http://localhost:8603/actuator/health, serviceUrl=http://localhost:8603/, source=http-api), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2024-07-10T06:35:12.120Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8603/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:36:00.208 INFO 6260 [reactor-http-nio-6] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=1ad2d74da960, version=0, registration=Registration(name=mogu-sms, managementUrl=http://localhost:8604/actuator, healthUrl=http://localhost:8604/actuator/health, serviceUrl=http://localhost:8604/, source=http-api), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2024-07-10T06:35:58.157Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8604/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8604
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:36:28.967 INFO 6260 [parallel-11] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=c7b1fddfea92, version=0, registration=Registration(name=mogu-admin, managementUrl=http://localhost:8601/actuator, healthUrl=http://localhost:8601/actuator/health, serviceUrl=http://localhost:8601/, source=http-api), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2024-07-10T06:36:18.955Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8601/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
+[mogu-monitor:192.168.200.1:8606] [,] 2024-07-10 14:37:19.720 INFO 6260 [parallel-13] de.codecentric.boot.admin.server.services.StatusUpdater:127 Couldn't retrieve status for Instance(id=39790085b145, version=2, registration=Registration(name=mogu-picture, managementUrl=http://localhost:8602/actuator, healthUrl=http://localhost:8602/actuator/health, serviceUrl=http://localhost:8602/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={sentinel={status=UNKNOWN, details={dataSource={degrade-sentinel-nacos-datasource={status=UP}, flow-sentinel-nacos-datasource={status=UP}}, enabled=true, dashboard={description=the dashboard servers [[Tuple2{r1=localhost, r2=8070}]] one of them can't be connected, status=UNKNOWN}}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=510769754112, free=122272665600, threshold=10485760}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[mogu-web, mogu-picture, mogu-gateway, mogu-search, mogu-monitor]}}}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, result=1, validationQuery=/* ping */ SELECT 1}}, redis={status=UP, details={version=3.2.100}}}), statusTimestamp=2024-07-10T06:35:52.803Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8602/actuator/health), info=Endpoint(id=info, url=http://localhost:8602/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+java.util.concurrent.TimeoutException: Did not observe any item or terminal signal within 10000ms in 'map' (and no fallback has been configured)
+	at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:289)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:274)
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:396)
+		at reactor.core.publisher.StrictSubscriber.onNext(StrictSubscriber.java:89)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:117)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:750)
+
